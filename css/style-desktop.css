@@ -1,0 +1,159 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@1&display=swap');
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3 ;
+    line-height: 1.5;
+    font-weight: bold;
+    /* controllare il bold!!!*/
+}
+
+Body{
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41 ;
+    font-size: 5.0rem ;
+    line-height: 1.65;
+}
+
+.logo {
+    background-color: black;
+    padding-left: 3%;
+    padding-top: 1%;
+  
+}
+
+.banner{
+    height: auto;
+    background-image: url('../images/banner.jpg');
+    background-position: center center;
+    text-align: center;   
+    padding: 15%;
+    background-size:90%;
+
+
+}
+
+header h1, p {
+text-align: center;
+margin-bottom: 5%;
+}
+
+header button {
+    background-color: #f04c2f ;
+    padding: 3% 7%;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60%;
+}
+
+article {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sistema {
+    padding-left: 50%;
+    text-align: center;
+}
+/*
+article h2 {
+    text-align:center; 
+    padding-left: 5%;
+    
+ }
+ article p {
+     text-align: center;
+     padding-left: 50%;
+     
+ }
+ */
+article img {
+   float: left;
+    width: 45%;
+    border-radius: 50%;
+ 
+}
+
+.garantito {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #e22d0e;
+    color: whitesmoke;
+    padding-bottom: 5%;   
+}
+
+.garantito p {
+    margin-bottom: 2%;
+}
+.gigante {
+    padding-top: 15%; 
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.scatola {
+    display: block;
+    height: 100%;
+    width: 100%;
+   background-color: whitesmoke;
+}
+section img {
+    width: 50%;
+    
+}
+section { 
+    display: block;
+    background-color: whitesmoke;
+}
+
+
+.bordo {
+    align-items: center;
+    float: left;
+   
+}
+.foto {
+    float:left;
+    padding: 20%;
+}
+
+footer {
+    padding: 15%;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #25a2c3;
+   
+}
+
+footer h2{
+    color: whitesmoke;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+footer hr {
+    text-align: center ;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 50%;
+
+}
+
+footer a:link {
+    color: #c8e7f0;
+}
+
+.fa-solid {
+
+    color:#25a2c3 ;
+    background-color: whitesmoke;
+    
+}
+
